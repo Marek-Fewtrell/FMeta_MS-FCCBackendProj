@@ -11,9 +11,16 @@
    <body>
       <div class="container">
          <h1>File Metadata</h1>
+         <form action="/input2" method="post" enctype="multipart/form-data">
+           <input name="uploadFile" type="file"><br/><br/>
+           <input type="submit" value="send file">
+         </form>
+         <br/>
+         <hr>
          <h3>How to use:</h3>
          <p>
-           
+           Select and upload your file.
+           You will get information returned such as filesize.
          </p>
       </div>
    </body>
